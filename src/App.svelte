@@ -1,24 +1,35 @@
 <script>
-	export let name;
 </script>
 
 <main>
-	<h1>Hello {name}</h1>
+	<h1>Achievements</h1>
+	<div class="year-wrapper">
+		<div class="year">2022</div>
+		<div class="year">2021</div>
+		<div class="year">2020</div>
+		<div class="year">2019</div>
+	</div>
+
+	<div class="event-wrapper">
+		<div class="event">
+			<div class="position"></div>
+			<h2>Test</h2>
+		</div>
+		<div class="event">
+			<h2>Test</h2>
+		</div>
+		<div class="event">
+			<h2>Test</h2>
+		</div>
+	</div>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
 	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+		color: #fff;
+		font-size: 3.5vw;
+		margin-left: 5vw;
+		font-weight: bold;
 	}
 
 	@media (min-width: 640px) {
